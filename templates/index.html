@@ -18,9 +18,41 @@
             width: 100px;
             height: 100px;
             border-radius: 50%;
-            background-color: red;
+            
             margin: 10px;
             padding: 2px;
+        }
+
+        .one:hover{
+            background-color: #f1f1f1;
+            transform: scale(1.1);
+            transition-duration: 0.5s;
+        }
+        
+
+        .two:hover{
+            background-color: #f1f1f1;
+            transform: scale(1.1);
+            transition-duration: 0.5s;
+        }
+
+        .three:hover{
+            background-color: #f1f1f1;
+            transform: scale(1.1);
+            transition-duration: 0.5s;
+        }
+
+        .four:hover{
+            background-color: #f1f1f1;
+            transform: scale(1.1);
+            transition-duration: 0.5s;
+        }
+
+        .react{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid black;
         }
 
         .one img{
@@ -31,8 +63,8 @@
         }
 
         .two img{
-            width: 100px;
-            height: 100px;
+            width: 90px;
+            height: 90px;
             display: flex;
             justify-content: center;
             margin: auto auto;
@@ -67,10 +99,32 @@
             margin: 50px 50px;
         }
 
+        .jokes{
+            margin: auto auto;
+        }
+
+        .btn{
+            background-color: #f1f1f1;
+            border: 1px solid black;
+            padding: 10px;
+            border-radius: 10px;
+            font-size: 20px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        
+
 
 
     </style>
     <div>
+
+        <div class="box">
+            <div class="small">
+
+            </div>
+            
+        </div>
         <!--jokes-->
         <div class="row">
             <div class="col">
@@ -92,7 +146,7 @@
                 </div>
                 <div class="col">
                     <div class="react two">
-                        <img src="/static/images/smiling-face.png" alt="">
+                        <img src="/static/images/happiness.png" alt="">
                     </div>
     
                 </div>
@@ -122,7 +176,7 @@
             <div class="col">
                 <div class="next" >
                     <form action="/">
-                        <button>Next joke</button>
+                        <button class="btn">Next joke</button>
             
                     </form>
                     
